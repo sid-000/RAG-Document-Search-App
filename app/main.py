@@ -35,3 +35,4 @@ if st.button("Search") and question:
                 st.markdown(answer)
             except Exception as e:
                 st.error(f"Failed to get answer: {e}")
+# Initial app setup 
