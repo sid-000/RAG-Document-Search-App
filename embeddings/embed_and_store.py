@@ -45,3 +45,4 @@ def build_faiss_index(chunks: List[Dict], save_dir: str = "embeddings/faiss_stor
         pickle.dump(metadata, f)
 
     print(f"Saved FAISS index and metadata for {len(chunks)} chunks.")
+# embedding logic 
