@@ -38,3 +38,4 @@ def load_documents(data_dir: str = "data") -> List[Tuple[str, str]]:
         documents.append((filename, text))
 
     return documents
+# added PDF loader 
