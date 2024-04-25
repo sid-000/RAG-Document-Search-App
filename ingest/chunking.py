@@ -43,3 +43,4 @@ def create_chunks(documents: List[tuple], chunk_size: int = 500) -> List[Dict]:
             })
 
     return all_chunks
+# splitting text into chunks 
