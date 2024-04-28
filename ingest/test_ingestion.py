@@ -8,3 +8,4 @@ if __name__ == "__main__":
     chunks = create_chunks(docs, chunk_size=500)
     print(f"Generated {len(chunks)} chunks")
     print("Sample chunk:\n", chunks[0] if chunks else "No chunks found.")
+# ingestion test cases 
