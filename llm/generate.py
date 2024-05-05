@@ -31,3 +31,4 @@ def ask_llm(context: str, question: str, model: str = "gpt-3.5-turbo") -> str:
     )
 
     return response['choices'][0]['message']['content'].strip()
+# generate response from query 
