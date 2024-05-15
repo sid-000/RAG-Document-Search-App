@@ -24,3 +24,4 @@ if __name__ == "__main__":
         print("Question:", question)
         print("\n Retrieved Context:", context)
         print("\n Answer:\n", answer)
+# pipeline integration test 
