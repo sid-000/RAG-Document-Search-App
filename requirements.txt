@@ -6,3 +6,4 @@ sentence-transformers
 python-dotenv
 tiktoken
 langchain
+# langchain==0.1.0 
