@@ -103,27 +103,31 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxx
 streamlit run app/main.py
 
 
-
-
-## 🧪 Sample Q&A Results
-
-**Document:** `NLP_intro.pdf`  
-**Question:** What are transformers used for in NLP?  
-**Retrieved Context Snippet:**  
-> Transformers are used in NLP for tasks such as translation, summarization, and question answering...
-
-**Answer:**  
-Transformers are used in NLP for tasks like translation, summarization, and QA by modeling long-range dependencies using self-attention mechanisms.
-
 ---
 
-**Document:** `transformers_overview.pdf`  
-**Question:** Who introduced the transformer model?  
-**Answer:**  
-The Transformer model was introduced in the paper *"Attention is All You Need"* by Vaswani et al., 2017.
+📘 Sample Q&A Results
+Below are sample interactions demonstrating how the app extracts answers based on uploaded documents.
+
+📄 Source: "Attention Is All You Need"
+Q: What are transformers used for in NLP?
+A:
+Transformers are deep learning models that rely entirely on self-attention mechanisms, removing the need for recurrence. In NLP, they are used for tasks like machine translation, summarization, and question answering. Their parallelizable structure significantly improves training efficiency and accuracy across sequence modeling tasks.
+
+Q: What is self-attention?
+A:
+Self-attention is a mechanism that allows a model to weigh the importance of different words in a sentence relative to each other. It computes representations of input tokens by attending to all positions in the sequence, enabling the model to capture contextual relationships more effectively.
+
+📄 Source: "A Comprehensive Survey of NLP"
+Q: What are the major tasks in NLP covered in the survey?
+A:
+The survey covers a wide range of NLP tasks including part-of-speech tagging, named entity recognition, machine translation, sentiment analysis, question answering, and text summarization. It also explores emerging areas like emotion detection and multilingual modeling.
+
+Q: What are some challenges in current NLP research?
+A:
+Key challenges include handling ambiguity in language, bias in training data, scalability of models, data sparsity in low-resource languages, and ensuring interpretability of deep models like transformers.
 
 
-
+---
 
 ## 📄 Sample Documents
 
