@@ -5,6 +5,17 @@ A full-stack **Retrieval-Augmented Generation (RAG)** pipeline that ingests docu
 ---
 
 
+🗓️ Project Timeline
+
+Originally Started: March 2024
+
+Finalized: May 2024
+
+Portfolio Update: July 2025
+
+---
+
+
 ## 🔹 Demo
 
 Here’s a quick walkthrough of the app in action:
