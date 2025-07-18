@@ -4,6 +4,16 @@ A full-stack **Retrieval-Augmented Generation (RAG)** pipeline that ingests docu
 
 ---
 
+
+## 🔹 Demo
+
+Here’s a quick walkthrough of the app in action:
+
+![Demo](assets/demo.gif)
+
+---
+
+
 ## 🚀 Features
 
 - 📥 Upload `.pdf` and `.txt` files from your local system
@@ -100,15 +110,6 @@ Transformers are used in NLP for tasks like translation, summarization, and QA b
 **Question:** Who introduced the transformer model?  
 **Answer:**  
 The Transformer model was introduced in the paper *"Attention is All You Need"* by Vaswani et al., 2017.
-
-
-
-
-## 🔹 Demo
-
-Here’s a quick walkthrough of the app in action:
-
-![Demo](assets/demo.gif)
 
 
 
