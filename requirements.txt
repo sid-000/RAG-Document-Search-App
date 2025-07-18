@@ -1,0 +1,8 @@
+pymupdf
+faiss-cpu
+openai
+streamlit
+sentence-transformers
+python-dotenv
+tiktoken
+langchain
