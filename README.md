@@ -139,6 +139,3 @@ The RAG system was tested on real-world NLP-related PDFs:
 These documents were embedded using `sentence-transformers`, stored using `FAISS`, and queried with natural language questions.
 
 
-
-ECHO is on.
-# Final documentation pass 
