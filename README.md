@@ -74,7 +74,7 @@ rag-document-search-app/
 ├── requirements.txt
 ├── README.md
 └── .env                       # Contains your OpenAI API key
-
+```
 
 ---
 
