@@ -76,6 +76,8 @@ rag-document-search-app/
 └── .env                       # Contains your OpenAI API key
 
 
+---
+
 ## 🛠️ **Setup Instructions**
 
 Follow the steps below to run the RAG document search app locally.
