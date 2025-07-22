@@ -76,66 +76,69 @@ rag-document-search-app/
 └── .env                       # Contains your OpenAI API key
 
 
+## 🛠️ **Setup Instructions**
+
+Follow the steps below to run the RAG document search app locally.
 
 ---
 
-## 🔧 Setup Instructions
-
-1. Clone the repo
+### 📁 **Step 1: Clone the Repo**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Deep-Learning---Project-1.git
+git clone https://github.com/YOUR_USERNAME/Deep-Learning---Project-1
 cd Deep-Learning---Project-1
+```
 
+---
 
-2. Install dependencies
+### 📦 **Step 2: Install Dependencies**
 
+```bash
 pip install -r requirements.txt
+```
 
+---
 
-3. Add your OpenAI key in .env:
+### 🔐 **Step 3: Add Your OpenAI Key**
 
-OPENAI_API_KEY=sk-xxxxxxxxxxxx
+Create a `.env` file in the root folder and add:
 
+```env
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
+```
 
-4. Run the app
+---
 
+### ▶️ **Step 4: Run the App**
+
+```bash
 streamlit run app/main.py
+```
 
+## 📘 Sample Q&A Results
 
----
-
-📘 Sample Q&A Results
-Below are sample interactions demonstrating how the app extracts answers based on uploaded documents.
-
-📄 Source: "Attention Is All You Need"
-Q: What are transformers used for in NLP?
-A:
-Transformers are deep learning models that rely entirely on self-attention mechanisms, removing the need for recurrence. In NLP, they are used for tasks like machine translation, summarization, and question answering. Their parallelizable structure significantly improves training efficiency and accuracy across sequence modeling tasks.
-
-Q: What is self-attention?
-A:
-Self-attention is a mechanism that allows a model to weigh the importance of different words in a sentence relative to each other. It computes representations of input tokens by attending to all positions in the sequence, enabling the model to capture contextual relationships more effectively.
-
-📄 Source: "A Comprehensive Survey of NLP"
-Q: What are the major tasks in NLP covered in the survey?
-A:
-The survey covers a wide range of NLP tasks including part-of-speech tagging, named entity recognition, machine translation, sentiment analysis, question answering, and text summarization. It also explores emerging areas like emotion detection and multilingual modeling.
-
-Q: What are some challenges in current NLP research?
-A:
-Key challenges include handling ambiguity in language, bias in training data, scalability of models, data sparsity in low-resource languages, and ensuring interpretability of deep models like transformers.
-
+Below are sample interactions demonstrating the RAG system's document-based responses.
 
 ---
 
-## 📄 Sample Documents
+### 🗂️ Source: *"Attention Is All You Need"*
 
-The RAG system was tested on real-world NLP-related PDFs:
+> **Q:** What are transformers used for in NLP?  
+> **A:** Transformers are deep learning models that learn contextual relationships in sequences of data.
 
-- [Attention Is All You Need (Vaswani et al., 2017)](data/Attention_Is_All_You_Need.pdf)
-- [Natural Language Processing: A Comprehensive Survey](data/NLP_Comprehensive_Survey.pdf)
+> **Q:** What is self-attention?  
+> **A:** Self-attention is a mechanism that lets each word in a sentence consider other words to understand context.
 
-These documents were embedded using `sentence-transformers`, stored using `FAISS`, and queried with natural language questions.
+---
+
+### 📄 Source: *"A Comprehensive Survey of NLP"*
+
+> **Q:** What are the major tasks in NLP covered?  
+> **A:** The survey covers a wide range of NLP tasks such as POS tagging, parsing, translation, summarization, etc.
+
+> **Q:** What are some challenges in current NLP systems?  
+> **A:** Key challenges include ambiguity, data sparsity, and limited world knowledge.
+
+
 
 
